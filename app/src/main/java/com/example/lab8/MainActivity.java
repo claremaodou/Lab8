@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import java.util.AbstractCollection;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -35,4 +36,8 @@ public class MainActivity extends AppCompatActivity {
         cityList.setAdapter(cityAdapter);
 
     }
+
+
+
+
 }
